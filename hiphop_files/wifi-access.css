@@ -1,0 +1,54 @@
+img.wifi {
+  display: inline-block;
+  max-width: 9141px;
+  max-height: 1416px; }
+
+#internet-slider {
+  display: none;
+  width: 90%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto; }
+  #internet-slider button {
+    border: none;
+    background: transparent;
+    font-size: 4em;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 25vh;
+    z-index: 10; }
+  #internet-slider button:focus {
+    outline: none; }
+  #internet-slider ul {
+    width: 100%;
+    left: -100%;
+    transition: 0.5s left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline-flex; }
+    #internet-slider ul li {
+      width: 100%;
+      color: black;
+      font-size: 3rem; }
+      #internet-slider ul li img {
+        width: 100%;
+        height: auto; }
+
+#internet-slider-right {
+  right: 3%; }
+
+#internet-slider-left {
+  left: 3%; }
+
+@media screen and (max-width: 1020px) {
+  img.wifi {
+    display: none; }
+  #internet-slider {
+    display: inline; } }
+
+@media screen and (max-width: 320px) {
+  #internet-slider button {
+    margin-top: 12vh;
+    font-size: 2em; } }

@@ -1,0 +1,10 @@
+/* ------------------ Global Styles ------------ */
+/*change page colors here!*/
+#aging-chart-img {
+  width: 80%;
+  height: 80%; }
+
+@media screen and (max-width: 570px) {
+  #aging-chart-img {
+    width: calc(100vw - 20%);
+    height: 100%; } }
